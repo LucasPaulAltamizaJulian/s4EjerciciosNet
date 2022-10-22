@@ -15,6 +15,7 @@ public class E8 {
             for (int j = 0; j < 10; j++) {
                 System.out.print("Ingrese el numero en la posicion {"+i+"}{"+j+"} : ");
                 matriz[i][j]=(int) (Math.random()*90)+10;
+                //matriz[i][j]=sc.nextInt();
                 System.out.println(" "+matriz[i][j]);
             }
         }

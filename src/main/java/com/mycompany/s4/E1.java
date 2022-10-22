@@ -14,8 +14,8 @@ public class E1 {
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 System.out.print("Ingrese el numero en la posicion {"+i+"}{"+j+"} : ");
-                matriz[i][j]=(int) (Math.random()*100);
-                System.out.println(" "+matriz[i][j]);
+                System.out.println(matriz[i][j]=(int) (Math.random()*100));
+                //matriz[i][j]=sc.nextInt();
                 if(i==j)
                     sumP=sumP+matriz[i][j];
             }
